@@ -10,12 +10,66 @@
 			    width: auto;
 			    color: #e5e4e2;
 			    text-align: justify;
-			    backround-color: #000;
+			    backround-color: #e5e4e2;
+				text-shadow: 1px 1px #000;
 			}
+
+			.main {
+			    position: relative;
+			}
+
+			.g {
+				width: 800px; /* width of container */
+			    height: 350px; /* height of container */
+			    object-fit: none;
+			    object-position: -660px 0px; /* try 20px 10px or 20% 10%*/
+			    position: absolute;
+			    top:0;
+			    left:0;
+			}
+
+			.atlanticfarah {
+				position: absolute;
+			    top: -30px;
+			    left: 10px;
+			    text-shadow: 1px 1px #6e6d6f;
+			    width: 300px;
+			}
+
+/*			.about {
+				position: absolute;
+			    top: -70px;
+			    left: 300px;
+			}*/
+
+			.mainabout {
+				position: absolute;
+				top: -30px;
+				left: 300px;
+				width: 230px;
+			}
+
+
 			h1 {
 			    font-size: 3em;
-			    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+			    font-family:'Helvetica';
+			    color: #e5e4e2;
 			}
+
+			h2 {
+			    font-size: 2em;
+			    font-family:'Helvetica';
+			    color: #e5e4e2;
+			}
+
+			h3 {
+			    font-size: 1em;
+			    font-family:'Helvetica';
+			    color: #e5e4e2;
+			}
+
+
+
 			p {
 			    font-size: 1em;
 			    line-height: 1em;
@@ -31,13 +85,39 @@
 			    color: #e5e4e2;
 			    backround-color: #000;
 			}
+
+
 		</style>
+
+		<header class="header" id="globalheader">
+
+
+		</header>
 		
-		<div class="Test">
-			<h1>Bonjour</h1>
+		<div class="main">
+			<img class="g" src="https://a.ltrbxd.com/resized/sm/upload/5l/fs/4y/sp/red-1200-1200-675-675-crop-000000.jpg?k=da02863b8c" alt="Girl in a jacket">
+		</div>
+
+
+		<div class="main">
+			<h1 class="atlanticfarah">Atlantic Farah</h1>
+
+			<div class="mainabout">
+				<h2 class="about">Bonjour, Hello. About Us & Our Products</h2>
+				<br></br>
+				<h3 class="aboutpt2">A Canadian business located in Montreal. Specializing in medical-grade beauty products with no chemical agents. Working with various plants to enrich our final product. A healthy alternative to store bought brands. Shampoos & Conditioners. </h3>
+			</div>
+<!--
+			<div class="mainproducts">
+				<h2 class="products">Products</h2>
+				<h3 class="productspt2">Shampoos & Conditioner</h3>
+			</div> -->
+			<!--
+
 			<a href="/products">Products</a>
 			<br></br>
 			<a href="/about">About</a>
+			-->
 		</div>
 	</body>
 
